@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Post - Redesigned</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .track-section {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .track-section input, .track-section button {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .track-section button {
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .service-box {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 150px;
+        }
+        footer {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>India Post</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="track-section">
+        <h2>Track Your Package</h2>
+        <input type="text" placeholder="Enter Consignment Number">
+        <button>Track Now</button>
+    </section>
+
+    <section class="services">
+        <div class="service-box">Calculate Postage</div>
+        <div class="service-box">Find Pincode</div>
+        <div class="service-box">Click n Book</div>
+        <div class="service-box">Buy Stamps</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 India Post. All rights reserved.</p>
+    </footer>
+</body>
+</html>
