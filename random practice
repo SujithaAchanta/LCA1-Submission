@@ -1,0 +1,147 @@
+<style>
+    .greenlink {
+        color: rgb(0, 113, 133);
+    }
+
+    .greenlink:hover {
+        color: rgb(199, 119, 0);
+    }
+
+    .bold {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .greenprice {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+    }
+    
+    .yellow {
+        background-color: rgb(255, 216, 20);
+        text-decoration: none;
+        border: none;
+        height: 30px;
+        width: 120px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .yellow:hover {
+        background-color: rgb(255, 200, 0);
+    }
+
+    .yellow:active {
+        opacity: 70%;
+    }
+
+    .orange {
+        background-color: rgb(255, 164, 28);
+        border: none;
+        height: 30px;
+        width: 120px;
+        border-radius: 20px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    .orange:hover {
+        background-color: rgb(255, 132, 0);
+    }
+
+    .orange:active {
+        opacity: 70%;
+    }
+
+    .back-button {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .next-button {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 8px;
+        font-size: 16px;
+    }
+
+    .num {
+        margin-right: 6px;
+        margin-left: 6px;
+        font-size: 16px;
+    }
+
+    .stretch {
+        color: white;
+        border: none;
+        background-color: green;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: padding 0.70s;
+    }
+
+    .stretch:active {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .shadow {
+        margin-left: 8px;
+        color: white;
+        border: none;
+        background-color: green;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+    }
+
+    .shadow:active {
+        box-shadow: none;
+        margin-top: 3px;
+        margin-right: 3px;
+    }
+</style>
+
+<p>
+    paragraph of text
+</p>
+
+<button>
+    Hello
+</button>
+
+<a href="https://youtube.com" target="_blank"> 
+Link to Youtube
+</a>
+<br><br>
+<button>Click</button>
+<br><br>
+<button>button1</button> <button>button2</button>
+<p>Hello, World!</p>
+<p>I wrote some code</p>
+<a href="https://www.google.com" target="_blank">Search with Google</a>
+<!--pagination--><br><br>
+<button class="back-button">Back</button>
+<a href="https://www.google.com" class="num">1<a> 
+<a href="https://www.google.com" class="num">2<a> 
+<a href="https://www.google.com" class="num">3<a> 
+<a href="https://www.google.com" class="num">4<a> 
+<a href="https://www.google.com" class="num">5<a> 
+<button class="next-button">Next</button>
+<br><br><br>
+<a href="https://www.amazon.in/" class="greenlink">Back to Amazon</a>
+<p class="bold">Nike Black Running Shoes</p><hr>
+<p class="greenprice">$39 - in stock.</p>
+<p>Free delivery tomorrow</p>
+<button class="yellow">Add to Cart</button> <button class="orange">Buy now</button>
+<br><br><br><button class="stretch">Stretch</button>
+<br><br><br><button class="Shadow">Shadow</button>
