@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PageTitle right here</title>
+        <style>
+            body {
+                background-color:yellow ;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+<body>
+    <h1>Heading1</h1>
+    <p>Paragraph1</p>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <p>i wrote a paragraph</p>
+    <a href = "https://www.w3schools.com/html/html_basic.asp">Click here</a>
+    <br>
+    <br>
+    <img src="pikachu.png" alt="Image of Pikachu" width="100">
+    <pre>
+        Pikachu
+        meowmeow
+        blalala
+    </pre>
+    <p>pikachu
+        meowmeow
+        blalala
+        <br>
+        dhkjsbskj
+    </p>
+    <hr>
+    <hr>
+    <hr>
+    <p style="color: brown;">this is a brown sentence yellow</p>
+    <p style="color: brown; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">this is a diff font brown</p>
+    <p style="color: brown; font-family:monospace; font-weight: lighter;">this is a diff brown with a diff weight</p>
+    <p style="color:aliceblue; background-color:darkgreen;">ello </p>
+    <p style="font: size 150px;"> Pikachu </p>
+    <p style="font-size:360%;">This is a paragraph.</p>
+    <p id="RIGHT"; style="text-align: right;">text on rightttt</p>
+    <p><b><i>meow</i> sup</b><strong> PIKACHU </strong><u>(￣y▽￣)╭ Ohohoho.....</u></p>
+    <p title="toooooltip">Hover ur mouse over this</p>
+    <p><i>italics</i><em> EMPHASISED</em></p>
+    <p><small>this tiny</small></p>
+    <p><mark>marked</mark></p>
+    <p><del>deleted pikachu</del></p>
+    <p>www<sub>subscript</sub></p>
+    <p><sup>dddd</sup>aub</p>
+    <blockquote>indentation fhnfhospdj</blockquote>
+    <p><q>pikachu</q></p>
+    <p>the <abbr title="PIKAPIKA">pikachu</abbr></p>
+    <address>
+        ash ☆*: .｡. o(≧▽≦)o .｡.:*☆
+    </address>
+    <cite>meowmeowmeow</cite> bro
+    <p><bdo dir="rtl">pikachu</bdo></p>
+    <!--JOHN CENA-->
+    <p style="border: 2px solid violet;"> Hello World </p>
+    <p style="background-color: rgb(150, 150, 214);">WAZZAH</p>
+    <p style="background-color: rgba(9, 19, 200, 0.317);">transparency</p>
+    <p style="color:violet;">INLINECSS</p>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_parent">linkhere</a></p>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">2linkhere</a></p>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_self">3linkhere</a></p>
+    <p><a href="https://www.w3schools.com/html/html_links.asp" target="_top">4linkhere</a></p>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><button>1this is a button</button></a>
+    <a class="btn" href="https://www.w3schools.com/html/html_links.asp" target="_blank">2this is a button</a>
+    <br>
+    <br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank"  class="btn" >3this is a another button</a>
+    <button><a href="https://classroom.google.com/"; style="text-decoration: none;">4this is a button</a></button>
+    <br><br><hr>
+    <a href="#RIGHT">jump to the text on right</a>
+    <br><br>
+    <img src="download.jpeg" width="150">
+    <p>dmklwemkew<img src="pikachu.png" style="display:flow-root;width: 100px; ;"></p>
+    <img src="pichu.jpeg" style="height: 1000" usemap="#pichu">
+    <map name="pichu">
+        <area shape="rect" coords="82,50,23,77" alt="Rectangle" href="https://programminghead.com/Projects/find-coordinates-of-image-online.html">
+    </map> <!--IMAGE MAP DID WORK YIPPIE-->
+    <div>
+        <h2>
+            <p>Pichu</p>
+            <p>Lorem ipsum dolo</p>
+        </h2>
+    </div>
+    <div>
+        <img>
+    </div>
+</body>
+</html>
